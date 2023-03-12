@@ -6,4 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ethers = "1.0.2"
+dotenv = "0.15.0"
+ethers = { version = "2.0.0", features = ["rustls", "ws"] }
+tokio = { version = "1.23.0", features = ["macros"] }
