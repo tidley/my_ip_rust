@@ -9,3 +9,4 @@ edition = "2021"
 dotenv = "0.15.0"
 ethers = { version = "2.0.0", features = ["rustls", "ws"] }
 tokio = { version = "1.23.0", features = ["macros"] }
+public-ip = "0.2.2"
